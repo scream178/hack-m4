@@ -190,6 +190,23 @@ form .btn2{
     margin-left: 30px;
 }
 
+button {
+    display: flex;
+    text-align: center;
+    background: #7f7f7f;
+    color: #c6c6c6;
+    border: none;
+    border-radius: 5px;
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+button:hover {
+    transform: scale(1.1)
+}
 
 .copyright i{
     color: #ff004f;
